@@ -37,20 +37,27 @@ body {
   font-weight: bold;
 }
 
-.slider div p {
+.slider div .text {
   color: #1c1c1c;
   position: absolute;
-  bottom: -69px;
+  bottom: -66px;
+}
+
+.text p {
+  width: 218px;
+  height: 40px;
   font-family: font;
   font-size: 22px;
+  text-align: center;
 }
+
 .slider {
   -webkit-animation: animation ease 1s;
   animation-delay: 0.8s;
   animation-fill-mode: backwards;
 
   margin: 60px auto 0 auto;
-  height: 371px;
+  height: 360px;
   width: 240px;
   padding: 40px;
   top: 100px;
@@ -90,7 +97,7 @@ body {
   /*overflow:hidden;*/
   border: 12px white solid;
   box-sizing: border-box;
-  border-bottom: 55px white solid;
+  border-bottom: 57px white solid;
   border-radius: 5px;
 }
 
