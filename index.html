@@ -10,7 +10,7 @@
       media="screen"
     />
   </head>
-  <body>
+  <body onclick="playAudio()">
     <div class="slider">
       <div class="slide">
         <img src="img/10.png" />
@@ -73,7 +73,13 @@
         </div>
       </div>
     </div>
-    <audio src="audio/ritmo.mp3" autoplay="autoplay" loop="loop"></audio>
+    <audio
+      id="musica"
+      src="audio/ritmo.mp3"
+      autoplay="autoplay"
+      loop="loop"
+    ></audio>
   </body>
+  <script src="js/audio.js"></script>
   <script src="js/slider.js"></script>
 </html>
