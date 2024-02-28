@@ -1,6 +1,3 @@
-/*! Elastic Slider (c) 2014 // Taron Mehrabyan // Ruben Sargsyan
- */
-
 window.addEventListener("load", onWndLoad, false)
 
 function onWndLoad() {
